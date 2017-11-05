@@ -10,5 +10,14 @@ import com.o2o.entity.Shop;
 * 类说明 
 */
 public interface ShopDao {
-int insertShop();
+/**
+ * 增添店铺
+ * @param shop
+ * @return
+ */
+int insertShop(Shop shop);
+/**
+ * 更新店铺
+ */
+int updateShop(Shop shop);
 }

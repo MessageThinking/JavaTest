@@ -7,7 +7,7 @@ import java.util.Date;
  * @version 创建时间：2017年11月2日 下午7:03:27 用户信息 实体类
  */
 public class PersonInfo {
-	private Long useId;
+	private Long userId;
 	private String name;
 	private String profileImg;
 	private String email;
@@ -16,12 +16,12 @@ public class PersonInfo {
 	// 1.顾客 2.店家 3.超级管理员
 	private Integer userType;
 
-	public Long getUseId() {
-		return useId;
+	public Long getUserId() {
+		return userId;
 	}
 
-	public void setUseId(Long useId) {
-		this.useId = useId;
+	public void setUserId(Long useId) {
+		this.userId = useId;
 	}
 
 	public String getName() {

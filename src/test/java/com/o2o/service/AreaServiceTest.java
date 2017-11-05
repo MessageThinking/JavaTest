@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.o2o.BaseTest;
 import com.o2o.entity.Area;
-import com.o2o.serviceImp.AreaServiceimp;
+import com.o2o.serviceImp.AreaServiceImp;
 
 
 /** 
@@ -19,7 +19,7 @@ import com.o2o.serviceImp.AreaServiceimp;
 */
 public class AreaServiceTest extends BaseTest{
 @Autowired
-private AreaServiceimp areaServiceimp;
+private AreaServiceImp areaServiceimp;
 @Test
 public void testqueryArea(){
 List<Area> areaService=areaServiceimp.getAreaList();

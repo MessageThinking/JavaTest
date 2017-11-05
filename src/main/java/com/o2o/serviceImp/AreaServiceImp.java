@@ -15,7 +15,7 @@ import com.o2o.service.AreaService;
 * 类说明 
 */
 @Service
-public class AreaServiceimp implements AreaService {
+public class AreaServiceImp implements AreaService {
  @Autowired
  private AreaDao areaDao;
 	@Override
