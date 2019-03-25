@@ -16,6 +16,7 @@ import com.o2o.BaseTest;
 import com.o2o.entity.Area;
 
 public class AreaDaoTest extends BaseTest{
+	//检测文件是回退到暂存区里面的文件版本还是commit之后的本地仓库
 @Autowired
  private AreaDao areaDao;
 @Test
