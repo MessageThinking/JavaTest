@@ -5,7 +5,7 @@ import java.util.List;
 import com.o2o.entity.Shop;
 
 /** 
-* @author 作者：wanwei666
+* @author 作者：wanwei6667777
 * @version 创建时间：2017年11月3日 上午9:28:01 
 * 类说明 
 */
@@ -15,7 +15,7 @@ public interface ShopDao {
  * @param shop
  * @return
  */
-int insertShop(Shop shop);
+int insertShop(Shopsssss shop);
 /**
  * 更新店铺
  */
