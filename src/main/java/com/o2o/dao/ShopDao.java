@@ -11,7 +11,7 @@ import com.o2o.entity.Shop;
 */
 public interface ShopDao {
 /**
- *wanwei增添店铺
+ * 增添店铺
  * @param shop
  * @return
  */
