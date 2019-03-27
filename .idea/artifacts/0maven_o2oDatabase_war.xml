@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="0maven-o2oDatabase:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="maven-o2oDatabase.war">
+      <element id="artifact" artifact-name="0maven-o2oDatabase:war exploded" />
+    </root>
+  </artifact>
+</component>
